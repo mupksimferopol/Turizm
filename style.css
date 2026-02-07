@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+body{
+  background-color: #EEEFF1;
+  font-family: 'Roboto', sans-serif;
+}
+.links{
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 42px;
+  color: black;
+  font-size: 16px;
+}
+.content_nav{
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome_wrapper{
+  align-items: center;
+  padding-top: 162px;
+  display: flex;
+  justify-content: center;
+}
+.welcome_text_wrapper{
+  max-width: 540px;
+  padding-left: 130px;
+}
+h1{
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.katalog_div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.katalog-card{
+  max-width: 400px;
+  margin: 20px;
+  border: #ad0000 1px solid;
+  padding: 20px;
+  border-radius: 20px;
+}
+.katalog__img{
+  height: 270px;
+  width: 350px;
+  border-radius: 20px;
+}
+.katalog__button:hover{
+  color: red;
+  background-color: white;
+  border-color: red;
+  border: 2px;
+  transition-duration: 0.75s;
+}
+.about-p{
+  padding-top: 60px;
+  min-width: 540px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.ertty{
+  margin: 50px;
+}
+.img-fluid{
+  height: 300px;
+  width: 400px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+.send{
+  margin-top: 20px;
+  background-color: #e72618d7;
+  color: white;
+  min-width: 100px;
+  min-height: 30px;
+}
+.send-btn{
+  margin-top: 60px;
+  background-color: #637930d7;
+  color:white;
+  min-width: 225px;
+  min-height: 65px;
+}
+.logo-img-fluid{
+  height: 200px;
+  width: 200px;
+}
+@media screen and (max-width: 992px) {
+.welcome_wrapper{
+  align-items: center; 
+padding-top: 130px; 
+display: flex; 
+flex-direction: column; 
+justify-content: center
+}
+.welcome_text_wrapper{
+  padding-top: 20px;
+  max-width: 540px;
+  text-align: center;
+  padding-left: 0;
+}
+.send-btn{
+  margin-top: 20px; 
+min-width: 200px; 
+min-height: 55px
+}
+}
+@media screen and (max-width: 768px) {
+.content_nav{
+  padding-top: 30px;
+ display: flex;
+ align-items: center;
+ justify-content: center;}
+ .navbar {
+  justify-content: center;
+flex-direction: column;
+
+ }
+}
+@media screen and (max-width: 576px){
+
+.about-p{
+  margin-top: 60px;
+  min-width: 200px;
+  min-height: 16px;
+  line-height: 26px;
+}
